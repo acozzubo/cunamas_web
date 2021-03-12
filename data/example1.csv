@@ -1,0 +1,181 @@
+﻿year,group,outcome,value
+2008,Attended,Moderate Anemia,0.09623
+2008,Attended,Mild Anemia,0.187538
+2008,Not targeted,Moderate Anemia,0.073884
+2008,Not targeted,Mild Anemia,0.153815
+2008,Target not attended,Moderate Anemia,0.114548
+2008,Target not attended,Mild Anemia,0.214409
+2009,Attended,Moderate Anemia,0.123274
+2009,Attended,Mild Anemia,0.189384
+2009,Not targeted,Moderate Anemia,0.106494
+2009,Not targeted,Mild Anemia,0.170599
+2009,Target not attended,Moderate Anemia,0.151473
+2009,Target not attended,Mild Anemia,0.233353
+2010,Attended,Moderate Anemia,0.120475
+2010,Attended,Mild Anemia,0.200017
+2010,Not targeted,Moderate Anemia,0.100128
+2010,Not targeted,Mild Anemia,0.194351
+2010,Target not attended,Moderate Anemia,0.133497
+2010,Target not attended,Mild Anemia,0.240815
+2011,Attended,Moderate Anemia,0.104565
+2011,Attended,Mild Anemia,0.209717
+2011,Not targeted,Moderate Anemia,0.095834
+2011,Not targeted,Mild Anemia,0.17784
+2011,Target not attended,Moderate Anemia,0.136582
+2011,Target not attended,Mild Anemia,0.246577
+2012,Attended,Moderate Anemia,0.098122
+2012,Attended,Mild Anemia,0.208014
+2012,Not targeted,Moderate Anemia,0.079701
+2012,Not targeted,Mild Anemia,0.171662
+2012,Target not attended,Moderate Anemia,0.125647
+2012,Target not attended,Mild Anemia,0.259967
+2013,Attended,Moderate Anemia,0.0914
+2013,Attended,Mild Anemia,0.226791
+2013,Not targeted,Moderate Anemia,0.095672
+2013,Not targeted,Mild Anemia,0.206008
+2013,Target not attended,Moderate Anemia,0.12067
+2013,Target not attended,Mild Anemia,0.252762
+2014,Attended,Moderate Anemia,0.10363
+2014,Attended,Mild Anemia,0.220687
+2014,Not targeted,Moderate Anemia,0.091121
+2014,Not targeted,Mild Anemia,0.215027
+2014,Target not attended,Moderate Anemia,0.133826
+2014,Target not attended,Mild Anemia,0.254263
+2015,Attended,Moderate Anemia,0.107412
+2015,Attended,Mild Anemia,0.221922
+2015,Not targeted,Moderate Anemia,0.081777
+2015,Not targeted,Mild Anemia,0.210309
+2015,Target not attended,Moderate Anemia,0.144061
+2015,Target not attended,Mild Anemia,0.25118
+2016,Attended,Moderate Anemia,0.122101
+2016,Attended,Mild Anemia,0.244295
+2016,Not targeted,Moderate Anemia,0.085941
+2016,Not targeted,Mild Anemia,0.226102
+2016,Target not attended,Moderate Anemia,0.167613
+2016,Target not attended,Mild Anemia,0.28568
+2017,Attended,Moderate Anemia,0.152916
+2017,Attended,Mild Anemia,0.265232
+2017,Not targeted,Moderate Anemia,0.131094
+2017,Not targeted,Mild Anemia,0.235036
+2017,Target not attended,Moderate Anemia,0.189136
+2017,Target not attended,Mild Anemia,0.312031
+2018,Attended,Moderate Anemia,0.188428
+2018,Attended,Mild Anemia,0.300587
+2018,Not targeted,Moderate Anemia,0.160989
+2018,Not targeted,Mild Anemia,0.261975
+2018,Target not attended,Moderate Anemia,0.236779
+2018,Target not attended,Mild Anemia,0.34301
+2019,Attended,Moderate Anemia,0.267284
+2019,Attended,Mild Anemia,0.318359
+2019,Not targeted,Moderate Anemia,0.189665
+2019,Not targeted,Mild Anemia,0.348479
+2019,Target not attended,Moderate Anemia,0.303985
+2019,Target not attended,Mild Anemia,0.323221
+2008,Not targeted,Births No Physician,0.1919962
+2008,Attended,Births No Physician,0.1818366
+2008,Target not attended,Births No Physician,0.3451702
+2009,Not targeted,Births No Physician,0.1650615
+2009,Attended,Births No Physician,0.1487638
+2009,Target not attended,Births No Physician,0.3286803
+2010,Not targeted,Births No Physician,0.2022016
+2010,Attended,Births No Physician,0.1590652
+2010,Target not attended,Births No Physician,0.3354421
+2011,Not targeted,Births No Physician,0.1590179
+2011,Attended,Births No Physician,0.1469379
+2011,Target not attended,Births No Physician,0.334563
+2012,Not targeted,Births No Physician,0.1611897
+2012,Attended,Births No Physician,0.1327517
+2012,Target not attended,Births No Physician,0.3422047
+2013,Not targeted,Births No Physician,0.1289696
+2013,Attended,Births No Physician,0.1243453
+2013,Target not attended,Births No Physician,0.3016905
+2014,Not targeted,Births No Physician,0.1556058
+2014,Attended,Births No Physician,0.1112212
+2014,Target not attended,Births No Physician,0.3050601
+2015,Not targeted,Births No Physician,0.1232909
+2015,Attended,Births No Physician,0.1100836
+2015,Target not attended,Births No Physician,0.2918392
+2016,Not targeted,Births No Physician,0.110285
+2016,Attended,Births No Physician,0.0946375
+2016,Target not attended,Births No Physician,0.2907764
+2017,Not targeted,Births No Physician,0.0700778
+2017,Attended,Births No Physician,0.0826341
+2017,Target not attended,Births No Physician,0.2814741
+2018,Not targeted,Births No Physician,0.07342
+2018,Attended,Births No Physician,0.0755849
+2018,Target not attended,Births No Physician,0.2860117
+2019,Not targeted,Births No Physician,0.0887688
+2019,Attended,Births No Physician,0.0615897
+2019,Target not attended,Births No Physician,0.2327984
+2008,Not targeted,Women with job,0.5861554
+2008,Attended,Women with job,0.5949567
+2008,Target not attended,Women with job,0.6569905
+2009,Not targeted,Women with job,0.5994387
+2009,Attended,Women with job,0.594546
+2009,Target not attended,Women with job,0.673843
+2010,Not targeted,Women with job,0.5985955
+2010,Attended,Women with job,0.6112169
+2010,Target not attended,Women with job,0.6724157
+2011,Not targeted,Women with job,0.595898
+2011,Attended,Women with job,0.611767
+2011,Target not attended,Women with job,0.6673642
+2012,Not targeted,Women with job,0.5957769
+2012,Attended,Women with job,0.6038064
+2012,Target not attended,Women with job,0.6599044
+2013,Not targeted,Women with job,0.57482
+2013,Attended,Women with job,0.6075046
+2013,Target not attended,Women with job,0.6467384
+2014,Not targeted,Women with job,0.5741518
+2014,Attended,Women with job,0.599937
+2014,Target not attended,Women with job,0.6358538
+2015,Not targeted,Women with job,0.5508765
+2015,Attended,Women with job,0.5940107
+2015,Target not attended,Women with job,0.6442847
+2016,Not targeted,Women with job,0.5693786
+2016,Attended,Women with job,0.5976993
+2016,Target not attended,Women with job,0.635099
+2017,Not targeted,Women with job,0.5656447
+2017,Attended,Women with job,0.6090354
+2017,Target not attended,Women with job,0.653074
+2018,Not targeted,Women with job,0.5783439
+2018,Attended,Women with job,0.6038808
+2018,Target not attended,Women with job,0.6633417
+2019,Not targeted,Women with job,0.5768569
+2019,Attended,Women with job,0.6074733
+2019,Target not attended,Women with job,0.6768872
+2008,Not targeted,Men with job,0.7704979
+2008,Attended,Men with job,0.7823953
+2008,Target not attended,Men with job,0.8323475
+2009,Not targeted,Men with job,0.7681901
+2009,Attended,Men with job,0.7820026
+2009,Target not attended,Men with job,0.8306302
+2010,Not targeted,Men with job,0.7843566
+2010,Attended,Men with job,0.7819402
+2010,Target not attended,Men with job,0.8327034
+2011,Not targeted,Men with job,0.7526692
+2011,Attended,Men with job,0.7906668
+2011,Target not attended,Men with job,0.8314506
+2012,Not targeted,Men with job,0.7626524
+2012,Attended,Men with job,0.7888239
+2012,Target not attended,Men with job,0.8276009
+2013,Not targeted,Men with job,0.7605298
+2013,Attended,Men with job,0.7798089
+2013,Target not attended,Men with job,0.8187802
+2014,Not targeted,Men with job,0.7472411
+2014,Attended,Men with job,0.7768752
+2014,Target not attended,Men with job,0.8201581
+2015,Not targeted,Men with job,0.7444648
+2015,Attended,Men with job,0.7654321
+2015,Target not attended,Men with job,0.8329232
+2016,Not targeted,Men with job,0.7523546
+2016,Attended,Men with job,0.768074
+2016,Target not attended,Men with job,0.8172235
+2017,Not targeted,Men with job,0.7478278
+2017,Attended,Men with job,0.7681244
+2017,Target not attended,Men with job,0.8283209
+2018,Not targeted,Men with job,0.7564949
+2018,Attended,Men with job,0.7661254
+2018,Target not attended,Men with job,0.8304739
+2019,Not targeted,Men with job,0.7517827
+2019,Attended,Men with job,0.7718142
+2019,Target not attended,Men with job,0.835747
