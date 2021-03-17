@@ -1,4 +1,3 @@
-import './main.css';
 import vegaEmbed from 'vega-embed';
 import {select} from 'd3-selection';
 import CostaChart from './charts/costa-chart';
@@ -12,15 +11,23 @@ fetch('./data/cars.json')
   .then(main);
 
 function renderVegaChart(chart) {
-  vegaEmbed('#slide-content', chart, {actions: false, theme: 'quartz', renderer:'svg', width: 1});
+  vegaEmbed('#slide-content', chart, {
+    actions: false,
+    theme: 'quartz',
+    renderer: 'svg',
+    width: 1,
+  });
 }
 
-const str_description = 'CunaMas is one of the five national social programs in Peru under the jurisdiction of the Ministry of Inclusion and Social Development (MIDIS). It was created in 2008 and its in charge of early childhood development by giving free childcare services to children between 0-5 years and family assistance services where mothers learn about nutrition, upbringing, etc. \n \n By using a targeting mechanism based on statistical indicators, the program targets districts for attention. However, by 2019, the program has not yet covered all the targeted district.'
+const str_description =
+  'CunaMas is one of the five national social programs in Peru under the jurisdiction of the Ministry of Inclusion and Social Development (MIDIS). It was created in 2008 and its in charge of early childhood development by giving free childcare services to children between 0-5 years and family assistance services where mothers learn about nutrition, upbringing, etc. \n \n By using a targeting mechanism based on statistical indicators, the program targets districts for attention. However, by 2019, the program has not yet covered all the targeted district.';
 
 const slides = [
   {
     title: 'The CunaMas Social Program in Peru',
-    content: str_description + '\n\n Contents: \
+    content:
+      str_description +
+      '\n\n Contents: \
      \n\u22C4 cunaMas national coverage \
      \n\u22C4 Coverage in the Coast  \
      \n\u22C4 Coverage in the Highlands \
@@ -29,7 +36,7 @@ const slides = [
      \n \n \
      \n Data Sources: CunaMas Admin. Records & Peruvian DHS 2008-19 \
      \n \n  Special thanks to the DataViz W21 cohort & our incredible instructor Andrew McNutt',
-    render: (data) => console.log(),
+    render: data => console.log(),
   },
   {
     title: 'Peru, 2009 vs. 2019 \n Targeted and Attended districts',
@@ -57,7 +64,8 @@ const slides = [
   },
   {
     title: 'CunaMas Impact on Health and Labor',
-    content: 'An important aspect highlighted in the implementation of CunaMas was that daycare services may allow more women to work during the day. Moreover, given the services provided to pregnant women, it is expected that the program has certain impact in the birth conditions, particularly in the presence of a physician during the process. Finally, the family assistance services has as one of its objective the improvement of nourishment in childrens.  \n \n In the following chart, it is possible to compare the evolution of key outcomes in these dimensions. Even though it is not an impact evaluation and we cannot derive a causal link so easily, this descriptive exercise helps to explore potential effects of the program in the last decade.',
+    content:
+      'An important aspect highlighted in the implementation of CunaMas was that daycare services may allow more women to work during the day. Moreover, given the services provided to pregnant women, it is expected that the program has certain impact in the birth conditions, particularly in the presence of a physician during the process. Finally, the family assistance services has as one of its objective the improvement of nourishment in childrens.  \n \n In the following chart, it is possible to compare the evolution of key outcomes in these dimensions. Even though it is not an impact evaluation and we cannot derive a causal link so easily, this descriptive exercise helps to explore potential effects of the program in the last decade.',
     render: () => renderVegaChart(LineChart),
   },
 ];
@@ -81,9 +89,7 @@ function main(data) {
   select('#next').on('click', () =>
     updateState((currentSlideIdx + 1) % slides.length),
   );
-  select('#last').on('click', () =>
-    updateState(slides.length - 1),
-  );
+  select('#last').on('click', () => updateState(slides.length - 1));
 
   function drawProgress() {
     const numData = [...new Array(slides.length)].map((_, idx) => idx);
