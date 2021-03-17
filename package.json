@@ -32,7 +32,8 @@
     "d3-shape": "^2.1.0",
     "d3-transition": "^2.0.0",
     "vega": "^5.19.1",
-    "vega-embed": "^6.15.2"
+    "vega-embed": "^6.15.2",
+    "vega-lite": "^5.0.0"
   },
   "scripts": {
     "start": "webpack-dev-server",
