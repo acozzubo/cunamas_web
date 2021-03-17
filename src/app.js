@@ -38,7 +38,7 @@ const slides = [
     render: () => renderVegaChart(PeruChart),
   },
   {
-    title: 'The Coast: Big disparities in coverage',
+    title: 'The Coast: Big disparities in coverage ',
     content:
       'The coastal area is the one that presents the most significant disparities in attention. The graph shows that the number of targeted districts varies considerably from one region to another. An example of this heterogeneity is visible between La Libertad and Moquegua, for instance. While the former has nearly 87% of its districts targeted to receive the program, only 15% of them have been prioritized in the latter region. However, this situation contrast with the effective attention since all targeted districts in Moquegua already receive the program benefits, while only 26% of them have been attended by 2019 in La Libertad. \n \n Two crucial elements should be highlighted:\n \n \u22C4 The coast is the only area that has regions that are fully covered by 2019. These are Arequipa, Callao, Ica, and Tumbes \n \u22C4 The Arequipa and Ica regions attend more districts than the one targeted by the program. This scenario may be revealing a political decision since both of these regions are considered important in the country. Alternatively, this may be a mistake in the administrative records of the program \n\n',
     render: () => renderVegaChart(CostaChart),
