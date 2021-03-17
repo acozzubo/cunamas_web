@@ -15,7 +15,6 @@ function renderVegaChart(chart) {
   vegaEmbed('#slide-content', chart, {actions: false, theme: 'quartz', renderer:'svg', width: 1});
 }
 
-
 const str_description = 'CunaMas is one of the five national social programs in Peru under the jurisdiction of the Ministry of Inclusion and Social Development (MIDIS). It was created in 2008 and its in charge of early childhood development by giving free childcare services to children between 0-5 years and family assistance services where mothers learn about nutrition, upbringing, etc. \n \n By using a targeting mechanism based on statistical indicators, the program targets districts for attention. However, by 2019, the program has not yet covered all the targeted district.'
 
 const slides = [
@@ -57,8 +56,8 @@ const slides = [
     render: () => renderVegaChart(SelvaChart),
   },
   {
-    title: 'Slide 5: Health and Labor Outcomes Evolution 2008-19',
-    content: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).`,
+    title: 'CunaMas Impact on Health and Labor',
+    content: 'An important aspect highlighted in the implementation of CunaMas was that daycare services may allow more women to work during the day. Moreover, given the services provided to pregnant women, it is expected that the program has certain impact in the birth conditions, particularly in the presence of a physician during the process. Finally, the family assistance services has as one of its objective the improvement of nourishment in childrens.  \n \n In the following chart, it is possible to compare the evolution of key outcomes in these dimensions. Even though it is not an impact evaluation and we cannot derive a causal link so easily, this descriptive exercise helps to explore potential effects of the program in the last decade.',
     render: () => renderVegaChart(LineChart),
   },
 ];

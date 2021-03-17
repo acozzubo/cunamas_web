@@ -1144,7 +1144,7 @@ export default {
           "Men with job"
         ],
         "labels": [
-          "All Indicators",
+          "Choose an Indicator",
           "Moderate Anemia",
           "Mild Anemia",
           "Births No Physician",
@@ -1166,7 +1166,7 @@ export default {
           "Not targeted",
           "Target not attended"
         ],
-        "name": " Zoom Group: "
+        "name": " Zoom to a Group: "
       }
     },
     {
