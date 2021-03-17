@@ -9,7 +9,7 @@ export default {
     "text": "Source: CunaMas Administrative Records",
     "baseline": "bottom",
     "dx": 375,
-    "dy": 105,
+    "dy": 85,
     "fontSize": 10
   },
   "data": [
@@ -110,7 +110,7 @@ export default {
         "anchor": "middle",
         "offset": 45,
         "orient": "top",
-        "subtitle": ["Number of attended districts, Peru"],
+        "subtitle": null,
         "color": "black",
         "subtitleColor": "black",
         "align": "center",
@@ -342,7 +342,7 @@ export default {
     "legend": {
       "direction": "horizontal",
       "legendX": 58,
-      "legendY": -35,
+      "legendY": -45,
       "orient": "none",
       "padding": 5,
       "rowPadding": 5,
